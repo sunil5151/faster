@@ -29,7 +29,7 @@ export default function App() {
             <div id="featured-work">
               <FeaturedWork />
             </div>
-            <Projects />
+            {/* <Projects /> */}
             <Skills />
             <Contact />
             <Footer />

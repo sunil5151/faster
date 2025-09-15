@@ -16,14 +16,7 @@ const Projects = () => {
   const [selectedProject, setSelectedProject] = useState<string | null>(null);
 
   const projects = [
-    {
-      id: 'ecommerce',
-      title: "E-commerce Platform Redesign",
-      description: "Complete redesign of a fashion e-commerce platform, focusing on improving user experience and conversion rates. Implemented a new design system and mobile-first approach.",
-      image: "https://images.unsplash.com/photo-1694599048261-a1de00f0117e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxlY29tbWVyY2UlMjB3ZWJzaXRlJTIwZGVzaWdufGVufDF8fHx8MTc1NzU4NDUzNXww&ixlib=rb-4.1.0&q=80&w=1080",
-      tags: ["UX/UI Design", "E-commerce", "Design System"],
-      component: EcommerceProject
-    },{
+{
     id: 'medical-portal',
     title: "SecureMed Portal - Healthcare Management System",
     description: "A comprehensive healthcare management platform revolutionizing patient care through secure data management, real-time communication, and intelligent appointment scheduling. Features HIPAA-compliant security and seamless doctor-patient interactions.",
@@ -35,18 +28,18 @@ const Projects = () => {
   {
     id: 'leaderboard-portal',
     title: "SecureMed Portal - Healthcare Management System",
-    description: "A comprehensive healthcare management platform revolutionizing patient care through secure data management, real-time communication, and intelligent appointment scheduling. Features HIPAA-compliant security and seamless doctor-patient interactions.",
+    description: "Leader Board Management System ",
     image: medical,
-    tags: ["Healthcare", "HIPAA Compliant", "Real-time Chat", "Patient Management"],
+    tags: ["Real Time Update ", "Leader Board Management"],
     link: `${import.meta.env.VITE_BASE_URL}/leaderboard`,
     github: "https://github.com/sunil5151/LeaderBoard"
   },
   {
     id: 'Kanban-Board-portal',
-    title: "SecureMed Portal - Healthcare Management System",
-    description: "A comprehensive healthcare management platform revolutionizing patient care through secure data management, real-time communication, and intelligent appointment scheduling. Features HIPAA-compliant security and seamless doctor-patient interactions.",
+    title: "Kanban Board Portal - Kanban Management System",
+    description: "A comprehensive Kanban Board management platform ",
     image: medical,
-    tags: ["Healthcare", "HIPAA Compliant", "Real-time Chat", "Patient Management"],
+    tags: [ "HIPAA Compliant", "Real-time Update", "Kanban Management"],
     link: `${import.meta.env.VITE_BASE_URL}/kanban`,
     github: "https://github.com/sunil5151/Kanban"
   },
@@ -59,17 +52,17 @@ const Projects = () => {
     link: `${import.meta.env.VITE_BASE_URL}/resumelens`,
     github: "https://github.com/yourusername/resumelens" // Replace with your actual GitHub repo
   },
-    {
-      id: 'fintech',
-      title: "FinTech Mobile App",
-      description: "Designed a comprehensive mobile banking app with focus on security, accessibility, and user-friendly financial management features.",
-      image: "https://images.unsplash.com/photo-1618761714954-0b8cd0026356?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHxtb2JpbGUlMjBhcHAlMjBkZXNpZ24lMjBpbnRlcmZhY2V8ZW58MXx8fHwxNzU3NTg1MDgwfDA&ixlib=rb-4.1.0&q=80&w=1080",
-      tags: ["Mobile Design", "FinTech", "User Research"],
-      component: FintechProject
-    },
+    // {
+    //   id: 'fintech',
+    //   title: "FinTech Mobile App",
+    //   description: "Designed a comprehensive mobile banking app with focus on security, accessibility, and user-friendly financial management features.",
+    //   image: "https://images.unsplash.com/photo-1618761714954-0b8cd0026356?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHxtb2JpbGUlMjBhcHAlMjBkZXNpZ24lMjBpbnRlcmZhY2V8ZW58MXx8fHwxNzU3NTg1MDgwfDA&ixlib=rb-4.1.0&q=80&w=1080",
+    //   tags: ["Mobile Design", "FinTech", "User Research"],
+    //   component: FintechProject
+    // },
     {
       id: 'saas',
-      title: "SaaS Dashboard Design",
+      title: "Payment Dashboard Management System",
       description: "Created an intuitive dashboard for a project management SaaS tool, emphasizing data visualization and workflow optimization.",
       image: medical1,
       tags: ["Dashboard Design", "SaaS", "Data Visualization"],

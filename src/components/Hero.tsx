@@ -4,7 +4,7 @@ import { ImageWithFallback } from './figma/ImageWithFallback';
 import photo2 from '../images/photo2.jpg';
 const Hero = () => {
   const scrollToProjects = () => {
-    const element = document.getElementById('projects');
+    const element = document.getElementById('featured-work');
     if (element) {
       element.scrollIntoView({ behavior: 'smooth' });
     }
@@ -123,7 +123,7 @@ const Hero = () => {
               transition={{ delay: 1.2, duration: 0.6 }}
             >
               <motion.a 
-                href="#" 
+                href="https://github.com/sunil5151" 
                 className="glass-button p-3 rounded-xl text-white hover:bg-white/20 transition-all duration-300"
                 whileHover={{ scale: 1.1, rotate: 5 }}
                 whileTap={{ scale: 0.9 }}
@@ -131,7 +131,7 @@ const Hero = () => {
                 <Github size={24} />
               </motion.a>
               <motion.a 
-                href="#" 
+                href="https://www.linkedin.com/in/sunil-sonu-938830257/" 
                 className="glass-button p-3 rounded-xl text-white hover:bg-white/20 transition-all duration-300"
                 whileHover={{ scale: 1.1, rotate: -5 }}
                 whileTap={{ scale: 0.9 }}

@@ -12,7 +12,7 @@ const Footer = () => {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
           <div className="md:col-span-2">
-            <h3 className="text-2xl font-medium mb-4">Alex Jordan</h3>
+            <h3 className="text-2xl font-medium mb-4">Sunil Sonu</h3>
             <p className="text-gray-400 mb-6 max-w-md">
               Product Designer crafting digital experiences that are intuitive, 
               engaging, and meaningful. Let's create something amazing together.
@@ -84,7 +84,7 @@ const Footer = () => {
         
         <div className="border-t border-gray-800 mt-8 pt-8 flex flex-col md:flex-row justify-between items-center">
           <p className="text-gray-400 flex items-center">
-            Made with <Heart size={16} className="mx-1 text-red-500" /> by Alex Jordan
+            Made with <Heart size={16} className="mx-1 text-red-500" /> by Sunil Sonu
           </p>
           <p className="text-gray-400 mt-4 md:mt-0">
             © {currentYear} All rights reserved.

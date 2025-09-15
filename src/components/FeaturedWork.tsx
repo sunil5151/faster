@@ -12,7 +12,7 @@ const FeaturedWork = () => {
       image: "https://images.unsplash.com/photo-1694599048261-a1de00f0117e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxlY29tbWVyY2UlMjB3ZWJzaXRlJTIwZGVzaWdufGVufDF8fHx8MTc1NzU4NDUzNXww&ixlib=rb-4.1.0&q=80&w=1080",
       gradient: "gradient-primary",
       tags: ["AI/ML", "NLP Processing", "Semantic Analysis", "Bias Reduction", "Redis Caching", "FastAPI"],
-      link: "/resumelens",
+      link: `${import.meta.env.VITE_BASE_URL}/resumelens`,
       github: "https://github.com/yourusername/resumelens",
       likes: 234,
       views: 1420
@@ -24,7 +24,7 @@ const FeaturedWork = () => {
       image: "https://images.unsplash.com/photo-1634084462412-b54873c0a56d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxtb2Rlcm4lMjB3ZWIlMjBkZXNpZ24lMjBwcm9qZWN0fGVufDF8fHx8MTc1NzYyMDUyM3ww&ixlib=rb-4.1.0&q=80&w=1080",
       gradient: "gradient-secondary",
       tags: ["Dashboard Design", "SaaS", "Data Visualization"],
-      link: "/payment-dashboard",
+      link: `${import.meta.env.VITE_BASE_URL}/payment-dashboard`,
       github: "https://github.com/sunil5151/Biotron6",
       likes: 189,
       views: 980
@@ -36,7 +36,7 @@ const FeaturedWork = () => {
       image: "https://images.unsplash.com/photo-1618761714954-0b8cd0026356?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxtb2JpbGUlMjBhcHAlMjBkZXNpZ24lMjBpbnRlcmZhY2V8ZW58MXx8fHwxNzU3NTg1MDgwfDA&ixlib=rb-4.1.0&q=80&w=1080",
       gradient: "gradient-warning",
       tags: ["Real Time Update", "Leader Board Management"],
-      link: "/leaderboard",
+      link: `${import.meta.env.VITE_BASE_URL}/leaderboard`,
       github: "https://github.com/sunil5151/LeaderBoard",
       likes: 278,
       views: 1340
@@ -48,7 +48,7 @@ const FeaturedWork = () => {
       image: "https://images.unsplash.com/photo-1634084462412-b54873c0a56d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxtb2Rlcm4lMjB3ZWIlMjBkZXNpZ24lMjBwcm9qZWN0fGVufDF8fHx8MTc1NzYyMDUyM3ww&ixlib=rb-4.1.0&q=80&w=1080",
       gradient: "gradient-primary",
       tags: ["Healthcare", "HIPAA Compliant", "Real-time Chat", "Patient Management"],
-      link: "/kanban",
+      link: `${import.meta.env.VITE_BASE_URL}/kanban`,
       github: "https://github.com/sunil5151/Kanban",
       likes: 203,
       views: 890
